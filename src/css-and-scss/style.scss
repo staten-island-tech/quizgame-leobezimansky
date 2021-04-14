@@ -13,19 +13,25 @@ body {
   font-size: 2rem;
   margin: 2.5rem 0;
   background-color: peachpuff;
+  background-image: url(../images/darkSoulsIII.jpg);
 }
 
 .title{
   width: 95%;
   height: auto;
+  background-image:url(../images/toPissYouOff.jpg) ;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .question-box{
-  width: 80%;
+  width: 85%;
   height: auto;
+  background-color: lightgray;
 }
 
 .answer-box{
   width: 80%;
   height: auto;
+  background-color: peachpuff;
 }
