@@ -27,14 +27,14 @@ function submitAnswers() {
     }
   }
 
-  const answers = ["b", "b", "c", "c", "a", "d", "d", "a", "b", "a"];
+  const answers = ["a", "c", "c", "a", "d", "a", "c", "d", "b", "a"];
 
   for (let i = 1; i <= total; i++) {
     if (eval("n" + i) == answers[i - 1]) {
       score++; 
     }
   }
-  console.log("You scored " + score + " out of " + total); 
+  console.log("You got " + score + " out of " + total); 
   const results = document.getElementById("results");
   const reaction = document.getElementById("reaction");
   results.innerText = `You got ${score} out of 10.`;
