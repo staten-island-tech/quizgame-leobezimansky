@@ -1,6 +1,31 @@
+
+
+
+
 body {
-    background: url("../images/dark.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  font-size: 62.5%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-size: 2rem;
+  margin: 2.5rem 0;
+  background-color: peachpuff;
+}
+
+.title{
+  width: 95%;
+  height: auto;
+}
+
+.question-box{
+  width: 80%;
+  height: auto;
+}
+
+.answer-box{
+  width: 80%;
+  height: auto;
+}

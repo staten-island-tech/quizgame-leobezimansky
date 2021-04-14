@@ -6,39 +6,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css-and-scss/style.scss">
+    <link rel="stylesheet" href="94256c049a995787819a967ec2dfa121">
     <title>Dark Souls 3: the Quiz Game</title>
 </head>
 
 <body>
     <div class="container">
-        <div class=question-box>
-            <div class="title">
-                <h1 class="question center">Your Average Souls Quiz</h1>
-                <h1 class="answer-text center">Prepare to Die</h1>
-            </div>
+        <div class="question-box">
+
+            <h1 class="question center">Your Average Souls Quiz</h1>
+            <h1 class="answer-text center">Prepare to Die</h1>
         </div>
-        <form name="DS3" onsubmit="submitAnswers();return false" ;>
+        <form name="DS3" onsubmit="submitAnswers();return false" ;="">
             <div class="question-box">
                 <h1 class="question">What is the phrase Solaire of Astora is most known for</h1>
                 <div class="answer-box">
                     <input type="sun" name="n1" value="a" id="n1a">
-                    <h1 class="answer-text">Praise the Sun!</h1></input>
+                    <h1 class="answer-text">Praise the Sun!</h1>
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n1" value="b" id="n1b">
                     <h1 class="answer-text">By my blade!</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n1" value="c" id="n1c">
                     <h1 class="answer-text">Rise Blade of the Darkmoon!</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n1" value="d" id="n1d">
                     <h1 class="answer-text">You remain among the accursed!</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -46,22 +45,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n2" value="a" id="n2a">
                     <h1 class="answer-text">50%</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n2" value="b" id="n2b">
                     <h1 class="answer-text">1%</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n2" value="c" id="n2c">
                     <h1 class="answer-text">5.75%</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n2" value="d" id="n2d">
                     <h1 class="answer-text">10.75%</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -69,22 +68,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n3" value="a" id="n3a">
                     <h1 class="answer-text">caestus</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n3" value="b" id="n3b">
                     <h1 class="answer-text">iron roundshield</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n3" value="c" id="n3c">
                     <h1 class="answer-text">parrying dagger</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n3" value="d" id="n3d">
                     <h1 class="answer-text">llewellyn shield</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -92,22 +91,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n4" value="a" id="n4a">
                     <h1 class="answer-text">Company Captain Yorshka</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n4" value="b" id="n4b">
                     <h1 class="answer-text">Rosaria, Mother of Rebirth</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n4" value="c" id="n4c">
                     <h1 class="answer-text">Solaire, knight of the Sun</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n4" value="d" id="n4d">
                     <h1 class="answer-text">Old Wolf of Farron</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -115,22 +114,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n5" value="a" id="n5a">
                     <h1 class="answer-text">Sprint Punch</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n5" value="b" id="n5b">
                     <h1 class="answer-text">double slam</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n5" value="c" id="n5c">
                     <h1 class="answer-text">Slam, Punch, Grab</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n5" value="d" id="n5d">
                     <h1 class="answer-text">Shoulder Check</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -138,22 +137,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n6" value="a" id="n6a">
                     <h1 class="answer-text">Dancer of the Boreal Valley</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n6" value="b" id="n6b">
                     <h1 class="answer-text">Artorias of the Abyss</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n6" value="c" id="n6c">
                     <h1 class="answer-text">Nameless King</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n6" value="d" id="n6d">
                     <h1 class="answer-text">Sister Friede</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -161,22 +160,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n7" value="a" id="n7a">
                     <h1 class="answer-text">Darkeater Midir and Dragonslayer Ornstein</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n7" value="b" id="n7b">
                     <h1 class="answer-text">Curse-Rotted Greatwood and Champion Gundyr</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n7" value="c" id="n7c">
                     <h1 class="answer-text">Sister Friede and The Champion's Gravetender</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n7" value="d" id="n7d">
                     <h1 class="answer-text">Crystal Sage and Daughter of the Crystal Kriemhild</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -184,22 +183,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n8" value="a" id="n8a">
                     <h1 class="answer-text">sl 200</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n8" value="b" id="n8b">
                     <h1 class="answer-text">sl 802</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n8" value="c" id="n8c">
                     <h1 class="answer-text">sl 340</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n8" value="d" id="n8d">
                     <h1 class="answer-text">sl 120</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -207,22 +206,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n9" value="a" id="n9a">
                     <h1 class="answer-text">Anri of Astora</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n9" value="b" id="n9b">
                     <h1 class="answer-text">Siegward of Catarina</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n9" value="c" id="n9c">
                     <h1 class="answer-text">Ludleth of Courland</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n9" value="d" id="n9d">
                     <h1 class="answer-text">Hawkwood the Deserter</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -230,22 +229,22 @@
                 <div class="answer-box">
                     <input type="sun" name="n10" value="a" id="n10a">
                     <h1 class="answer-text">Aldrich's Sapphire</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n10" value="b" id="n10b">
                     <h1 class="answer-text">Dark Stoneplate Ring</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n10" value="c" id="n10c">
                     <h1 class="answer-text">Chloranthy ring</h1>
-                    </input>
+                    
                 </div>
                 <div class="answer-box">
                     <input type="sun" name="n10" value="d" id="n10d">
                     <h1 class="answer-text">Ring of the Sun's Firstborn</h1>
-                    </input>
+                    
                 </div>
             </div>
             <div class="question-box">
@@ -254,7 +253,7 @@
             </div>
         </form>
     </div>
-    <script src="js/index.js"></script>
+    <script src="06dfe9f8db92a79f21cf80f953a0a070"></script>
 </body>
 
 </html>
