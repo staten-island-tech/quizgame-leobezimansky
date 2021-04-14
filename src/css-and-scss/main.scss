@@ -1,0 +1,77 @@
+html,
+body {
+  font-size: 62.5%;
+  background-image: url("dark.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+
+.answer-box {
+  background-color: rgb(27, 6, 220);
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-top: 3px solid #ef00db;
+  border-right: 3px solid #ef00bb;
+  border-bottom: 3px solid #b80582;
+  border-left: 3px solid #9a05b8;
+  outline: 3px solid #730077;
+  box-shadow: -8px 8px rgba(0, 0, 0, 0.4);
+}
+
+.answer-text {
+  color: rgb(103, 20, 20);
+  font-size: 2rem;
+  text-shadow: -1px 0px rgb(145, 229, 255);
+}
+
+.question-box {
+  background-color: #64f1b6;
+  height: auto;
+  padding: 3rem;
+  border: 2px solid #bed205;
+  outline: 4px solid #05b147;
+  margin: 3rem;
+}
+
+.question {
+  color: rgb(20, 84, 103);
+  font-size: 4rem;
+  text-shadow: -3px 0px rgb(145, 215, 255);
+  padding: 0 0 2rem 1rem;
+}
+
+
+#submit-button {
+  color: rgb(26, 20, 103);
+  font-size: 2rem;
+  text-shadow: -1px 0px rgb(169, 145, 255);
+  background-color: rgb(63, 6, 220);
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-top: 3px solid #00dfef;
+  border-right: 3px solid #00dfef;
+  border-bottom: 3px solid #5905b8;
+  border-left: 3px solid #5905b8;
+  outline: 3px solid #440303;
+  box-shadow: -8px 8px rgba(0, 0, 0, 0.4);
+}
+
+#submit-button:hover {
+  background-color: #0514e7;
+  cursor: pointer;
+}
+
+#submit-button:active {
+  transform: translateX(-4px) translateY(4px);
+  box-shadow: none;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  max-width: 100rem;
+}
