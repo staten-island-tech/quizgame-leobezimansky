@@ -1,0 +1,18 @@
+17
+60C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\notes132633259946204903 0
+69C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\.gitattributes132633259945905007 0
+80C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\images\tanna-tuva.jpg132633259946385031 0
+65C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\images132633259946404909 1
+75C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\images\dark.jpeg132633259946334905 0
+71C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\css-and-scss132633259946314896 1
+67C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\package.json132635189243831059 0
+65C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\.gitignore132633266419224278 0
+72C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\package-lock.json132633259946274898 0
+58C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src132633259946425040 1
+61C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\js132633259946434946 1
+69C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\index.html132633259946425040 0
+70C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\js\index.js132633259946434946 0
+82C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\images\darkSoulsIII.jpg132633259946354910 0
+82C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\images\toPissYouOff.jpg132633259946404909 0
+81C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\css-and-scss\main.scss132633259946304904 0
+82C:\Users\evgen\Documents\GitHub\quizgame-leobezimansky\src\css-and-scss\style.scss132633259946314896 0
