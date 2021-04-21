@@ -10,16 +10,16 @@ const submitButton = document.querySelector("#submit-button");
 function submitAnswers() {
   const total = 10; 
   let score = 0; 
-  const q1 = document.forms["DS3"]["n1"].value;
-  const q2 = document.forms["DS3"]["n2"].value;
-  const q3 = document.forms["DS3"]["n3"].value;
-  const q4 = document.forms["DS3"]["n4"].value;
-  const q5 = document.forms["DS3"]["n5"].value;
-  const q6 = document.forms["DS3"]["n6"].value;
-  const q7 = document.forms["DS3"]["n7"].value;
-  const q8 = document.forms["DS3"]["n8"].value;
-  const q9 = document.forms["DS3"]["n9"].value;
-  const q10 = document.forms["DS3"]["n10"].value;
+  const n1 = document.forms["DS3"]["n1"].value;
+  const n2 = document.forms["DS3"]["n2"].value;
+  const n3 = document.forms["DS3"]["n3"].value;
+  const n4 = document.forms["DS3"]["n4"].value;
+  const n5 = document.forms["DS3"]["n5"].value;
+  const n6 = document.forms["DS3"]["n6"].value;
+  const n7 = document.forms["DS3"]["n7"].value;
+  const n8 = document.forms["DS3"]["n8"].value;
+  const n9 = document.forms["DS3"]["n9"].value;
+  const n10 = document.forms["DS3"]["n10"].value;
  
   for (let i = 1; i <= total; i++) {
     if (eval("n" + i) == null || eval("n" + i) == "") {
