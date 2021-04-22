@@ -5,3 +5,5 @@ npm init -y  //download data for the npm run start for a new computer.
 npm build -prod  //Something
 
 npm i //Something. I think it searches for any potential errors.
+
+ctrl + c    // axe the server

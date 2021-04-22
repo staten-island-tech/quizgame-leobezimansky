@@ -3,17 +3,18 @@
 
 
 body {
-  font-size: 62.5%;
   text-align: center;
   padding: 0;
   margin: 0;
 }
 
 .container {
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 2.5rem 0;
   background-color: peachpuff;
   background-image: url(../images/darkSoulsIII.jpg);
+  display: flex;
+  flex-direction: column;
 }
 
 .title{
@@ -25,9 +26,15 @@ body {
 }
 
 .question-box{
-  width: 85%;
+  // width: 85%;
+  margin: auto;
   height: auto;
   background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  height:auto;
+  width:80%;
+  // background-position: center;
 }
 
 .answer-box{
