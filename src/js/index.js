@@ -23,7 +23,7 @@ function submitAnswers() {
  
   for (let i = 1; i <= total; i++) {
     if (eval("n" + i) == null || eval("n" + i) == "") {
-      alert("Go back Ashen One,your quest is incomplete" + i);
+      alert("Go back Ashen One,your quest is incomplete!" + i);
     }
   }
 

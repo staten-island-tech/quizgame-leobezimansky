@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-size: 1rem;
+  margin: 2.5rem 0;
+  background-color: peachpuff;
+  background-image: url(/darkSoulsIII.d3996fc7.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 95%;
+  height: auto;
+  background-image: url(/toPissYouOff.b0d6067f.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.question-box {
+  margin: auto;
+  height: auto;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 80%;
+}
+
+.answer-box {
+  width: 80%;
+  height: auto;
+  background-color: peachpuff;
+}
+
+/*# sourceMappingURL=/style.cdba006b.css.map */
