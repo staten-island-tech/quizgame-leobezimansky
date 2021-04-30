@@ -151,32 +151,52 @@ function submitAnswers() {
     if (eval("n" + _i) == answers[_i - 1]) {
       score++;
     }
-  }
+  } // console.log("You got " + score + " out of " + total); 
+  // const results = document.getElementById("results");
+  // const reaction = document.getElementById("reaction");
+  // results.innerText = `You got ${score} out of 10.`;
+  // if (score === 10) {
+  //   reaction.innerText =
+  //     "You spend too much time on this game, go outside";
+  // }
+  // if (score >= 7 && score < 10) {
+  //   reaction.innerText = "";
+  // }
+  // if (score >= 4 && score < 7) {
+  //   reaction.innerText =
+  //     "Good job Skeleton, no prize ahead";
+  // }
+  // if (score >= 1 && score < 4) {
+  //   reaction.innerText =
+  //     "Probably a dex build";
+  // }
+  // if (score === 0) {
+  //   reaction.innerText =
+  //     "FILTHY CASUL DETECTED. LETHAL FORCE ENGAGED";
+  // }
 
-  console.log("You got " + score + " out of " + total);
-  var results = document.getElementById("results");
-  var reaction = document.getElementById("reaction");
-  results.innerText = "You got ".concat(score, " out of 10.");
+}
 
-  if (score === 10) {
-    reaction.innerText = "You spend too much time on this game, go outside";
-  }
+switch (true) {
+  case score = 10:
+    console.log("You spend too much time on this game, go outside");
+    break;
 
-  if (score >= 7 && score < 10) {
-    reaction.innerText = "";
-  }
+  case score < 10:
+    console.log("Install the gun mod");
+    break;
 
-  if (score >= 4 && score < 7) {
-    reaction.innerText = "Good job Skeleton, no prize ahead";
-  }
+  case score <= 7:
+    console.log("Good job Skeleton, no prize ahead");
+    break;
 
-  if (score >= 1 && score < 4) {
-    reaction.innerText = "Probably a dex build";
-  }
+  case score <= 4:
+    console.log("Probably a dex build");
+    break;
 
-  if (score === 0) {
-    reaction.innerText = "FILTHY CASUL DETECTED. LETHAL FORCE ENGAGED";
-  }
+  case score = 0:
+    console.log("FILTHY CASUL DETECTED. LETHAL FORCE ENGAGED");
+    break;
 }
 
 submitButton.addEventListener("click", function (e) {
@@ -211,7 +231,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64017" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52690" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

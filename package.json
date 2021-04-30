@@ -1,7 +1,8 @@
 {
   "name": "template-thingy",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "dist/index.html",
   "scripts": {
     "start": "parcel serve src/index.html",
     "build-prod": "parcel build src/index.html"

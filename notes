@@ -1,9 +1,11 @@
-npm run start   //get the sever running
+// Basically, add crap you don't want to forget or feel like noting here
 
-npm init -y  //download data for the npm run start for a new computer.
+npm run start
 
-npm build -prod  //Something
+npm run build-prod
 
-npm i //Something. I think it searches for any potential errors.
 
-ctrl + c    // axe the server
+
+
+//in package.json changed ""main": "index.js"," to ""main": "dist/index.html","
+
