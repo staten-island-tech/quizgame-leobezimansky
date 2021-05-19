@@ -34,10 +34,10 @@ function submitAnswers() {
       score++; 
     }
   }
-  // console.log("You got " + score + " out of " + total); 
-  // const results = document.getElementById("results");
-  // const reaction = document.getElementById("reaction");
-  // results.innerText = `You got ${score} out of 10.`;
+   console.log("You got " + score + " out of " + total); 
+   const results = document.getElementById("results");
+   const reaction = document.getElementById("reaction");
+   results.innerText = `You got ${score} out of 10.`;
   // if (score === 10) {
   //   reaction.innerText =
   //     "You spend too much time on this game, go outside";
@@ -62,20 +62,21 @@ function submitAnswers() {
 }
 
 switch (true) {
-  case score =10:
-    console.log("You spend too much time on this game, go outside")
+  case score === 10:
+    reaction.innerText =
+     "You spend too much time on this game, go outside";
     break;
-  case score <10:
-    console.log("Install the gun mod")
+  case score >= 7 && score < 10:
+    reaction.innerText = "Install the gun mod";
     break;
-  case score <=7:
-    console.log("Good job Skeleton, no prize ahead")
+  case score >= 4 && score < 7:
+    reaction.innerText = "Good job Skeleton, no prize ahead";
     break;
-  case score <=4:
-    console.log("Probably a dex build")
+  case score >= 1 && score < 4:
+    reaction.innerText = "Probably a dex build";
     break;
-  case score =0:
-    console.log("FILTHY CASUL DETECTED. LETHAL FORCE ENGAGED")
+  case score === 0:
+    reaction.innerText = "FILTHY CASUL DETECTED. LETHAL FORCE ENGAGED";
     break;
 }
 
